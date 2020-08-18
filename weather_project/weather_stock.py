@@ -16,8 +16,6 @@ stocks.loc[:, "date"] = stocks.loc[:, "date"].str.replace('년 ', '').str.replac
 weather.loc[:, "date"] = weather.loc[:, "date"].str.replace('-', '')
 #weather는 대시 기호로 나누어져 있으니, 대시 대신에 빈 문자열을 넣어주면 완성됩니다.
 
-
-
 weather = weather.iloc[:, 2:]
 #날씨 데이터 중 파이썬이 읽지 못하는 데이터가 있는 것 같습니다. 일단 눈대중으로 칼럼 인덱스를 골라 제거합니다.
 
