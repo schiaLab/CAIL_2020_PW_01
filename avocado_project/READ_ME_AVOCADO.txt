@@ -2,7 +2,7 @@
 
 This project is a sample project for 2020 programming workshop, CAIL.
 The dataset that project requires can be downloaded from kaggle. Put the dataset inside this directory
- without changing its name and
+ without changing its name.
 
 
 URL: https://www.kaggle.com/neuromusic/avocado-prices
